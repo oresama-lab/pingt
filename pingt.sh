@@ -56,7 +56,7 @@ echo -e "${YEL}${BOLD}DESCRIPTION${ESC}"
 echo -e "This is ping tool which returns output with timestamp"
 
 echo -e "${YEL}${BOLD}OPTIONS${ESC}"
-echo -e "${SPACE}${YEL}${BOLD}-O${ESC}${TAB}Save the oytput to a given destination.${LF}"
+echo -e "${SPACE}${YEL}${BOLD}-o${ESC}${TAB}Save the oytput to a given destination.${LF}"
 echo -e "${SPACE}${YEL}${BOLD}-h${ESC}${TAB}Output a usage message and exit.${LF}"
 echo -e "${SPACE}${YEL}${BOLD}-v${ESC}${TAB}Output the version number and exit.${LF}"
 }
@@ -76,7 +76,7 @@ IPaddr=$1
 while getopts ':o:hv' OPT
 do
   case $OPT in
-    "f" ) # Save output to file
+    "o" ) # Save output to file
 	    FLG_F="TRUE" ; VALUE_F="${OPTARG}"
 		;;
     "h" ) # Help option
