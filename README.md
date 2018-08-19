@@ -25,7 +25,7 @@ $ pingt -c 300 192.168.10.1
 !!!!!!!!!!!!.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-OK: 300 NG: 0
+OK: 298 NG: 2
 ```
 
 `-t` is loop option. Using this option will ping the target until you force it to stop by using Ctrl-C.
