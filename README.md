@@ -1,5 +1,5 @@
 # pingt
-This is ping tool which returns output with timestamp.
+This is wrapper script of ping which returns ping result with timestamp.
 
 ## Usage 
 
@@ -14,7 +14,7 @@ $ pingt 192.168.10.1
 [2018/08/19 23:45:55] 64 bytes from 192.168.10.1: icmp_seq=4 ttl=255 time=2.03 ms
 ```
 
-`-c` count option. And this generate Cisco-like ping result. If the ICMPp echo is succeeded you can see "!" mark, if not you can see "." mark. Ping repeated the specified number of times.
+`-c` is count option. And this generate Cisco-like ping result. If the ICMP echo is succeeded you can see "!", if not you can see ".". This repeat ICMP echo specified number of times.
 
 ```shell
 $ pingt -c 300 192.168.10.1
