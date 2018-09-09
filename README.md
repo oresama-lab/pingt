@@ -37,3 +37,7 @@ $ pingt -t 192.168.10.1
 !!!!!!!^C
 OK: 107 NG: 0
 ```
+
+## LICENSE
+
+MIT License Copyright (c) 2018 @skksky
